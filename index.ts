@@ -15,7 +15,14 @@ console.log(addTwo('3', '5'))
 */}
 
 
-const add = (a: number, b: number):number => {
+// const add = (a: number, b: number):number => {
+//     return a + b;
+// }
+// console.log( add(2, 3))
+{/** this can also be written as console.log(add(a:2. b:3)) */}
+
+const addTwo = (a:number, b:number):number => {
     return a + b;
 }
-console.log( add(2, 3))
+
+console.log(addTwo(20, 30));
